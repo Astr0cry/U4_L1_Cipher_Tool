@@ -1,0 +1,26 @@
+*{
+    outline: solid red;
+}
+
+html{
+    width:100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    width:200px;
+}
