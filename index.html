@@ -5,19 +5,20 @@
     </head>
 
     <body>
-        <form id="caesarCipher">
+        <h1>Caesar Cipher</h1>
         <div id="select">
-            <input type="text" id="input"> 
+            <input type="text" id="input" class="type"> 
             <select id="mode">
                 <option>Encrypt</option>
                 <option>Decipher</option>
             </select>
-            <input id="shifts" type="number"> 
+            <p>Shift Amount:</p>
+            <input id="shifts" type="number" class="type"> 
         </div>
-        <button>Enter</button>
+        <button onclick="updateOutput()">Enter</button>
         <p>Output:</p>
-        <output></output>
+        <output id="output"></output>
+        <a href="pages/SDP/U5_Lab1_SDP.html">SDP</a>
         <script src="index.js"></script>
-        </form>
     </body>
 </html>
